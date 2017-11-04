@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+#container{
+    margin:20px 50px 20px 50px;
+    background: linear-gradient(to bottom, #DDC1FF 0%, #97B4FF 100%);
+    border-radius: 15px;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+}
+input{
+    padding-left: 5px;
+    margin: 10px 15px 10px 30px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 160px;
+}
+button{
+    font-size: 20px;
+    border-radius: 50%;
+    color: #97B4FF;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 5px #DDC1FF;
+}
+button,input:focus{
+    outline:0;
+}
+h2{
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    color: white;
+}
+.fa{
+    margin-left: 10px;
+}
+AddItemDiv{
+    margin-bottom: 30px;
+}
+.item{
+    color:white;
+    margin-top: 5px;
+}
+.item:hover{
+    background-color: #efb3d7;
+    border-radius: 15px;
+}
+label{
+    font-size: 20px;
+    margin-left: 35px;
+    font-family: 'Kalam', sans-serif;
+}
+span{
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor:context-menu;
+}
+.remove{
+    display: none;
+}
+.checked {
+    background: #efb3d7;
+    color: white;
+    text-decoration: line-through;
+    border-radius: 15px;
+
+}
+
